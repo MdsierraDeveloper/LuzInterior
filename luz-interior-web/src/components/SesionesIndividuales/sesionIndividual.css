@@ -1,0 +1,133 @@
+.sesion-individual-bg {
+  background: #f8fafc;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.sesion-individual-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.sesion-individual-titulo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 48px 0 40px 0;
+  color: #222;
+}
+
+.sesion-individual-bloque {
+  margin-bottom: 48px;
+}
+
+.sesion-individual-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 36px;
+  margin-bottom: 18px;
+}
+
+.sesion-individual-nombre {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.sesion-individual-descripcion {
+  color: #38bdf8;
+  font-size: 1rem;
+  margin-bottom: 18px;
+  max-width: 480px;
+}
+
+.sesion-individual-btn {
+  background: #e5e7eb;
+  color: #222;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 28px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  cursor: pointer;
+  margin-top: 2px;
+  transition: background 0.2s;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sesion-individual-btn:hover {
+  background: #bae6fd;
+}
+
+.sesion-individual-img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.sesion-individual-calendarios {
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.calendario-nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.calendario-nav-arrow {
+  font-size: 1.5rem;
+  color: #bdbdbd;
+  margin-top: 18px;
+  user-select: none;
+}
+
+.calendario-mes {
+  min-width: 220px;
+}
+
+.calendario-mes-titulo {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #222;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.calendario-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+}
+
+.calendario-tabla th {
+  color: #bdbdbd;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 4px;
+  text-align: center;
+}
+
+.calendario-tabla td {
+  text-align: center;
+  padding: 6px;
+  font-size: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  color: #222;
+}
+
+.calendario-dia-activo {
+  background: #38bdf8;
+  color: #fff !important;
+  font-weight:700;
+}

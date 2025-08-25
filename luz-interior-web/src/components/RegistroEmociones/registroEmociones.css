@@ -1,0 +1,197 @@
+.emociones-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+
+.emociones-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  color: #222;
+}
+
+.emociones-calendario {
+  margin-bottom: 32px;
+}
+
+.calendario-header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.cal-arrow {
+  font-size: 1.5rem;
+  color: #23a6a6;
+  cursor: pointer;
+}
+
+.cal-month {
+  min-width: 120px;
+  text-align: center;
+}
+
+.calendario-grid {
+  display: flex;
+  gap: 48px;
+}
+
+.cal-col {
+  background: none;
+}
+
+.cal-days {
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.cal-numbers {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.emociones-grafico {
+  margin: 40px auto 0 auto;
+  max-width: 1000px;
+}
+
+.emociones-grafico h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #222;
+}
+
+.grafico-info {
+  margin-bottom: 12px;
+}
+
+.grafico-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #222;
+  display: block;
+}
+
+.grafico-promedio {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 6px;
+  color: #222;
+  display: block;
+}
+
+.grafico-cambio {
+  font-size: 1rem;
+  color: #23a6a6;
+  margin-top: 4px;
+  display: block;
+}
+
+.grafico-img img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.grafico-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  color: #222;
+  font-weight: 600;
+  font-size: 1rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emociones-reflexiones {
+  margin-top: 40px;
+}
+
+.emociones-reflexiones h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #222;
+}
+
+.reflexiones-list {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.reflexion-card {
+  position: relative;
+  background: #f6f8fa;
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 120px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.reflexion-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.reflexion-text {
+  position: relative;
+  z-index: 2;
+  padding: 32px 40px;
+  color: #222;
+  width: 100%;
+}
+
+.reflexion-fecha {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.reflexion-desc {
+  color: #444;
+  font-size: 1rem;
+}
+
+.emociones-btn {
+  background: #23e6b3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 32px auto 0 auto;
+  display: block;
+  box-shadow: 0 1px 4px rgba(44,167,224,0.08);
+  transition: background 0.2s;
+}
+
+.emociones-btn:hover {
+  background: #23a6a6;
+}

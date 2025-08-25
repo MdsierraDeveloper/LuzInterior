@@ -1,0 +1,51 @@
+.premium {
+  max-width: 700px;
+  margin: 40px auto 0 auto;
+}
+.premium h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #222;
+}
+.premium p {
+  color: #444;
+  margin-bottom: 18px;
+}
+.premium-card {
+  background: #eaf6fb;
+  border-radius: 16px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+  padding: 24px 20px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.premium-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #222;
+}
+.premium-price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 8px;
+  color: #222;
+}
+.premium-card .primary-btn {
+  margin: 18px 0 0 0;
+  width: 220px;
+}
+.premium-card ul {
+  margin: 18px 0 0 0;
+  padding-left: 18px;
+  color: #444;
+}
+.secure-pay {
+  display: block;
+  text-align: right;
+  color: #8ca2b3;
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
