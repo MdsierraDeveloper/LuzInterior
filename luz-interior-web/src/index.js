@@ -32,6 +32,7 @@ const Header = () => {
         <nav>
           {(isUserNormal || isUserPremium) ? (
             <div className="header-user-menu">
+              <a href='/' className="header-btn secondary">Inicio</a>
               <button className="header-notif-btn" title="Notificaciones">
                 <span role="img" aria-label="notificación">🔔</span>
               </button>
@@ -83,8 +84,8 @@ const Header = () => {
             </div>
           ) : (
             <>
-              <a href="/registro" className="header-btn">Regístrate</a>
-              <a href="/login" className="header-btn secondary">Iniciar sesión</a>
+              <a href="/usernormal" className="header-btn">Usuario Normal</a>
+              <a href="/userpremium" className="header-btn secondary">Usuario premium</a>
             </>
           )}
         </nav>
